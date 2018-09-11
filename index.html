@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Color slot machine</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="css\slots.css" rel="stylesheet" type="text/css">
+
+    <!--<Global site tag (gtag.js) - Google Analytics-->
+    <<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124757011-1"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-124757011-1');
+    </script>
+
+</head>
+<body>
+   <div id="slots"> 
+        <input type="text" id="tb1" />
+        <input type="text" id="tb2" />
+        <input type="text" id="tb3" />
+   
+        <h3>Click the button to spin</h3>
+        
+        <button id="spin">Spin Again</button>
+        <button id="quit">Quit</button>
+        <p id="msg"></p>
+   </div>
+
+   <h2 id="Goodbye!" hidden>Goodbye!</h2>
+    
+   <script src="js/final.js">type = "text/javascript"</script>
+
+</body>
+</html>
